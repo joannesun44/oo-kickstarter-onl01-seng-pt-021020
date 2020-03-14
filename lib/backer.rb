@@ -8,6 +8,7 @@ class Backer
   end 
   
   def self.back_project 
-    
+    @backed_projecrs << self.back_project
+  end 
   
 end
